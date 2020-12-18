@@ -1,14 +1,36 @@
 # tutorial-automation-testing-java-basic
-
 ---
-#### Description:
+
+### Description:
 This repo contains the basics of automation testing and java which will covered as a part of Automation Testing Online Training.
 
 ---
-#### Author:
-Created By: Akash Tyagi. Reach me out at: akashdktyagi@gmail.com
+
+#### Tutorials on: 
+* Automation Testing Basics 
+* Java Basics
+* Create Maven Project
 
 ---
+#### Author:
+* Created By: Akash Tyagi. 
+* Reach me out at: akashdktyagi@gmail.com
+
+---
+#### Required Installations:
+
+* For Selenium with Java Automation, you need below softwares:
+
+* JDK-Java Development Kit: ![Click Here](https://www.oracle.com/in/java/technologies/javase-downloads.html)
+* Eclipse: ![Click Here](https://www.eclipse.org/downloads/)
+* Maven: ![Click Here](https://maven.apache.org/download.cgi)
+    * Download this file: apache-maven-3.6.3-bin.zip
+* Step by Step instruction to install maven: ![Click Here](https://mkyong.com/maven/how-to-install-maven-in-windows/)
+* Git: ![Click Here](https://git-scm.com/downloads)
+
+
+---
+#### Tutorials - Slides - Automation Testing Basics, Java Basics, Create Maven Project
 
 >![Image](Slide1.png)
 
@@ -63,8 +85,11 @@ Created By: Akash Tyagi. Reach me out at: akashdktyagi@gmail.com
 >![Image](Slide26.png)
 
 ---
-# 2. Create your First Maven Project.
+## 2. Create your First Maven Project.
 ---
+
+* Read this to know basics of Maven: ![Click Here](https://maven.apache.org/guides/getting-started/index.html)
+
 * Use below screen shots to create your first maven project.
 
 >![Image](Screenshot%202020-12-18%20at%2010.25.03%20PM.png)
