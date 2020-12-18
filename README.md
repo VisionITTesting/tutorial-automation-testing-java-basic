@@ -154,3 +154,22 @@ This repo contains the basics of automation testing and java which will covered 
 >![Image](Screenshot%202020-12-18%20at%2010.39.52%20PM.png)
 
 >![Image](Screenshot%202020-12-18%20at%2010.40.19%20PM.png)
+
+---
+### How to Import an existing Maven Project in Eclipse?
+* First make sure the project with the same signature is not already imported in eclipse, else it will throw an error
+
+* Click on File->Import
+>![Image](Screenshot%202020-12-19%20at%2012.12.35%20AM.png)
+
+* Select Existing Maven project
+>![Image](Screenshot%202020-12-19%20at%2012.12.53%20AM.png)
+
+* If the Project is already there in the eclipse with matching artifact id or group id, then pom check box will be greyed out and a message at the top will be displayed.
+* Try to delete the previous project if not required or change eclipse workspace, form File-Switch Workspace option
+>![Image](Screenshot%202020-12-19%20at%2012.13.20%20AM.png)
+
+* Browse and go to the folder of the proect, select the Root folder of the POM.xml file.
+* Select the checkbox of pom.xml file
+>![Image](Screenshot%202020-12-19%20at%2012.14.10%20AM.png)
+
