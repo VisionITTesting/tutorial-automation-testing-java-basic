@@ -62,4 +62,70 @@ Created By: Akash Tyagi. Reach me out at: akashdktyagi@gmail.com
 
 >![Image](Slide26.png)
 
+---
+# 2. Create your First Maven Project.
+---
+* Use below screen shots to create your first maven project.
 
+>![Image](Screenshot%202020-12-18%20at%2010.25.03%20PM.png)
+
+>![Image](Screenshot%202020-12-18%20at%2010.25.58%20PM.png)
+
+* Make sure you check "create a simple project(skip archetype selection)" . See below screen shot
+>![Image](Screenshot%202020-12-18%20at%2010.26.19%20PM.png)
+
+####  What is Artifact ID, Group ID and Version and what is the use?
+* GroupID + Artifact ID + version = Gives your project a uniq identity
+* Also called as signature of the your project
+* Group ID usually refers to your company and sub divisions
+* Artifact ID refers to your project name
+* For example, if you are working for a company lets say "infosys" and lets say you are working in a department whose name is "Center of Excellence or CoE". And assume your are automating an ecommerce application. Then group id and artifact id can be as below:
+    * Group ID: ```com.infosys.coe```
+    * Artifact ID: ```ECommerceAutomationTestFW```
+    * Version: ```3.1.3```
+* Full signature of the project on "maven repo" will be: ```com.infosys.coe.ECommerceAutomationTestFW:3.1.3```
+* You will then upload your project artifacts and compiled code on online maven repository ![ClickHere](https://mvnrepository.com/)
+* This is important when some one else wants make use of your project. 
+* They can simply refer to your project from online maven repository.
+* This is how we use Selenium, Junit, TestNG, Cucumber libraries in our project.
+
+>![Image](Screenshot%202020-12-18%20at%2010.26.52%20PM.png)
+
+>![Image](Screenshot%202020-12-18%20at%2010.29.03%20PM.png)
+
+>![Image](Screenshot%202020-12-18%20at%2010.30.03%20PM.png)
+
+* Add properties tag in xml to include compiler version as ```1.8```
+>![Image](Screenshot%202020-12-18%20at%2010.32.48%20PM.png)
+
+* Update the project after every POM.xml change.
+>![Image](Screenshot%202020-12-18%20at%2010.34.23%20PM.png)
+
+>![Image](Screenshot%202020-12-18%20at%2010.34.34%20PM.png)
+
+>![Image](Screenshot%202020-12-18%20at%2010.34.48%20PM.png)
+
+* Create the package
+>![Image](Screenshot%202020-12-18%20at%2010.35.48%20PM.png)
+
+>![Image](Screenshot%202020-12-18%20at%2010.36.02%20PM.png)
+
+>![Image](Screenshot%202020-12-18%20at%2010.36.22%20PM.png)
+
+>![Image](Screenshot%202020-12-18%20at%2010.36.38%20PM.png)
+
+>![Image](Screenshot%202020-12-18%20at%2010.36.52%20PM.png)
+
+>![Image](Screenshot%202020-12-18%20at%2010.38.19%20PM.png)
+
+* You can run the project in two ways:
+    * Using Run as "Java Application". 
+        * For this right click on the File which you want to run
+    * Run as "Maven Project"
+        * For this right click on the Project and go to maven and click on "maven test"
+>![Image](Screenshot%202020-12-18%20at%2010.38.46%20PM.png)
+
+* Right click on the project (not file)
+>![Image](Screenshot%202020-12-18%20at%2010.39.52%20PM.png)
+
+>![Image](Screenshot%202020-12-18%20at%2010.40.19%20PM.png)
