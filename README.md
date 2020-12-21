@@ -173,3 +173,16 @@ This repo contains the basics of automation testing and java which will covered 
 * Select the checkbox of pom.xml file
 >![Image](Screenshot%202020-12-19%20at%2012.14.10%20AM.png)
 
+## How to create a New Maven Project Using Idea IntelliJ
+
+* Click on Create new Project
+>![Image](Screenshot%202020-12-21%20at%2012.11.40%20PM.png)
+
+* Select Maven from Left Panel
+>![Image](Screenshot%202020-12-21%20at%2012.11.57%20PM.png)
+
+* Enter Group name and artifact name/Project name
+>![Image](Screenshot%202020-12-21%20at%2012.12.31%20PM.png)
+
+* Project Created
+>![Image](Screenshot%202020-12-21%20at%2012.12.46%20PM.png)
