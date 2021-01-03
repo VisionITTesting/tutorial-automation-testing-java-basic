@@ -21,12 +21,12 @@ This repo contains the basics of automation testing and java which will covered 
 
 * For Selenium with Java Automation, you need below softwares:
 
-* JDK-Java Development Kit: ![Click Here](https://www.oracle.com/in/java/technologies/javase-downloads.html)
-* Eclipse: ![Click Here](https://www.eclipse.org/downloads/)
-* Maven: ![Click Here](https://maven.apache.org/download.cgi)
+* JDK-Java Development Kit: https://www.oracle.com/in/java/technologies/javase-downloads.html
+* Eclipse: https://www.eclipse.org/downloads/
+* Maven: (https://maven.apache.org/download.cgi
     * Download this file: apache-maven-3.6.3-bin.zip
-* Step by Step instruction to install maven: ![Click Here](https://mkyong.com/maven/how-to-install-maven-in-windows/)
-* Git: ![Click Here](https://git-scm.com/downloads)
+* Step by Step instruction to install maven: ![Click Here](https://mkyong.com/maven/how-to-install-maven-in-windows/
+* Git: https://git-scm.com/downloads
 
 
 ---
