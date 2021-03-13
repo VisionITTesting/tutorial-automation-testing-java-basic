@@ -30,6 +30,19 @@ This repo contains the basics of automation testing and java which will covered 
 
 
 ---
+
+#### Ground Rules
+
+* Target to spend at least 20 hrs per week. Use tools like this to track: https://clockify.me/
+* Complete the Workshops and Assignments on time.
+* Present your learning in the form demos.
+* Do lot of self reading.
+* Pre-Reading of the Topic.
+* Learn Less, Do more.
+* Do not focus on how many topics you have learnt rather focus on the depth of what you are learning.
+*
+
+---
 #### Tutorials - Slides - Automation Testing Basics, Java Basics, Create Maven Project
 
 >![Image](Slide1.png)
