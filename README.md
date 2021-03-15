@@ -199,3 +199,126 @@ This repo contains the basics of automation testing and java which will covered 
 
 * Project Created
 >![Image](Screenshot%202020-12-21%20at%2012.12.46%20PM.png)
+
+
+## Create your First Program - Calculator
+
+* Calculator Program Constructor 
+
+```java
+package com.vit;
+public class Calculator {
+	//Constructor
+	public Calculator() {
+		System.out.println("I am called.");
+	}
+	
+	//Methods/Behaviours
+	public int add(int a, int b) {
+		int result = a + b;
+		return result;
+	}
+	
+	public int sub(int a, int b) {
+		int result = a - b;
+		return result;
+	}
+	
+	public int mul(int a, int b) {
+		int result = a * b;
+		return result;
+	}
+	
+	public int div(int a, int b) {
+		int result = a / b;
+		return result;
+	}
+
+}
+```
+
+* Calculator Class Init with Constructor
+
+```java
+package com.vit;
+
+public class CalculatorUsingConstructor {
+	
+	//Variables/Attribute
+	int a;
+	int b;
+	int result;
+	
+	//Constructor
+	public CalculatorUsingConstructor(int a, int b) {
+		this.a = a;
+		this.b = b;
+	}
+	
+	//Methods/Behaviours
+	public void add() {
+		result = a + b;
+	}
+	
+	public void sub() {
+		result = a - b;
+	}
+	
+	public void mul() {
+		result = a * b;
+	}
+	
+	public void div() {
+		result = a / b;
+	}
+
+	public void printResult() {
+		System.out.println("Result is: " + result);
+	}
+}
+```
+* Runner and Output
+```java
+package com.vit;
+public class Runner {
+
+	public static void main(String[] args) {
+		int result;
+		Calculator calc = new Calculator();
+		result = calc.add(3, 5);
+		System.out.println("Addition Result : " + result);
+		
+		result = calc.sub(4, 6);
+		System.out.println("Sub Result : " + result);
+	
+		result = calc.mul(2, 3);
+		System.out.println("Multiply Result : " + result);
+		
+		// Different Version of the Class
+		System.out.println("-----------------------------------");
+		CalculatorUsingConstructor calcAdd = new CalculatorUsingConstructor(2,5);
+		calcAdd.add();
+		calcAdd.printResult();
+		
+		CalculatorUsingConstructor calcSub = new CalculatorUsingConstructor(4,5);
+		calcSub.sub();
+		calcSub.printResult();
+		
+		CalculatorUsingConstructor calcMult = new CalculatorUsingConstructor(6,7);
+		calcMult.mul();
+		calcMult.printResult();
+	}
+
+}
+/* OUTPUT
+I am called.
+Addition Result : 8
+Sub Result : -2
+Multiply Result : 6
+-----------------------------------
+Result is: 7
+Result is: -1
+Result is: 42
+*/
+
+```
