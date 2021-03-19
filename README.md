@@ -200,7 +200,6 @@ This repo contains the basics of automation testing and java which will covered 
 * Project Created
 >![Image](ss/Screenshot%202020-12-21%20at%2012.12.46%20PM.png)
 
-[Click here for Code](src/main/java/com/vit/_1_MyFirstCalcProgram)
 
 ## Create your First Program - Calculator
 
