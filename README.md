@@ -45,57 +45,57 @@ This repo contains the basics of automation testing and java which will covered 
 ---
 #### Tutorials - Slides - Automation Testing Basics, Java Basics, Create Maven Project
 
->![Image](Slide1.png)
+>![Image](ss/Slide1.png)
 
->![Image](Slide2.png)
+>![Image](ss/Slide2.png)
 
->![Image](Slide3.png)
+>![Image](ss/Slide3.png)
 
->![Image](Slide4.png)
+>![Image](ss/Slide4.png)
 
->![Image](Slide5.png)
+>![Image](ss/Slide5.png)
 
->![Image](Slide6.png)
+>![Image](ss/Slide6.png)
 
->![Image](Slide7.png)
+>![Image](ss/Slide7.png)
 
->![Image](Slide8.png)
+>![Image](ss/Slide8.png)
 
->![Image](Slide9.png)
+>![Image](ss/Slide9.png)
 
->![Image](Slide10.png)
+>![Image](ss/Slide10.png)
 
->![Image](Slide11.png)
+>![Image](ss/Slide11.png)
 
->![Image](Slide12.png)
+>![Image](ss/Slide12.png)
 
->![Image](Slide13.png)
+>![Image](ss/Slide13.png)
 
->![Image](Slide14.png)
+>![Image](ss/Slide14.png)
 
->![Image](Slide15.png)
+>![Image](ss/Slide15.png)
 
->![Image](Slide16.png)
+>![Image](ss/Slide16.png)
 
->![Image](Slide17.png)
+>![Image](ss/Slide17.png)
 
->![Image](Slide18.png)
+>![Image](ss/Slide18.png)
 
->![Image](Slide19.png)
+>![Image](ss/Slide19.png)
 
->![Image](Slide20.png)
+>![Image](ss/Slide20.png)
 
->![Image](Slide21.png)
+>![Image](ss/Slide21.png)
 
->![Image](Slide22.png)
+>![Image](ss/Slide22.png)
 
->![Image](Slide23.png)
+>![Image](ss/Slide23.png)
 
->![Image](Slide24.png)
+>![Image](ss/Slide24.png)
 
->![Image](Slide25.png)
+>![Image](ss/Slide25.png)
 
->![Image](Slide26.png)
+>![Image](ss/Slide26.png)
 
 ---
 ## 2. Create your First Maven Project.
@@ -200,125 +200,12 @@ This repo contains the basics of automation testing and java which will covered 
 * Project Created
 >![Image](Screenshot%202020-12-21%20at%2012.12.46%20PM.png)
 
+[Click here for Code](src/main/java/com/vit/_1_MyFirstCalcProgram)
 
 ## Create your First Program - Calculator
 
-* Calculator Program Constructor 
+[Click here for Code](src/main/java/com/vit/_1_MyFirstCalcProgram)
 
-```java
-package com.vit;
-public class Calculator {
-	//Constructor
-	public Calculator() {
-		System.out.println("I am called.");
-	}
-	
-	//Methods/Behaviours
-	public int add(int a, int b) {
-		int result = a + b;
-		return result;
-	}
-	
-	public int sub(int a, int b) {
-		int result = a - b;
-		return result;
-	}
-	
-	public int mul(int a, int b) {
-		int result = a * b;
-		return result;
-	}
-	
-	public int div(int a, int b) {
-		int result = a / b;
-		return result;
-	}
+## Create your Second Program - Enhanced Calculator
 
-}
-```
-
-* Calculator Class Init with Constructor
-
-```java
-package com.vit;
-
-public class CalculatorUsingConstructor {
-	
-	//Variables/Attribute
-	int a;
-	int b;
-	int result;
-	
-	//Constructor
-	public CalculatorUsingConstructor(int a, int b) {
-		this.a = a;
-		this.b = b;
-	}
-	
-	//Methods/Behaviours
-	public void add() {
-		result = a + b;
-	}
-	
-	public void sub() {
-		result = a - b;
-	}
-	
-	public void mul() {
-		result = a * b;
-	}
-	
-	public void div() {
-		result = a / b;
-	}
-
-	public void printResult() {
-		System.out.println("Result is: " + result);
-	}
-}
-```
-* Runner and Output
-```java
-package com.vit;
-public class Runner {
-
-	public static void main(String[] args) {
-		int result;
-		Calculator calc = new Calculator();
-		result = calc.add(3, 5);
-		System.out.println("Addition Result : " + result);
-		
-		result = calc.sub(4, 6);
-		System.out.println("Sub Result : " + result);
-	
-		result = calc.mul(2, 3);
-		System.out.println("Multiply Result : " + result);
-		
-		// Different Version of the Class
-		System.out.println("-----------------------------------");
-		CalculatorUsingConstructor calcAdd = new CalculatorUsingConstructor(2,5);
-		calcAdd.add();
-		calcAdd.printResult();
-		
-		CalculatorUsingConstructor calcSub = new CalculatorUsingConstructor(4,5);
-		calcSub.sub();
-		calcSub.printResult();
-		
-		CalculatorUsingConstructor calcMult = new CalculatorUsingConstructor(6,7);
-		calcMult.mul();
-		calcMult.printResult();
-	}
-
-}
-/* OUTPUT
-I am called.
-Addition Result : 8
-Sub Result : -2
-Multiply Result : 6
------------------------------------
-Result is: 7
-Result is: -1
-Result is: 42
-*/
-
-```
+[Click here for Code](src/main/java/com/vit/_2_MyAdvancedCalcProgram)
