@@ -200,6 +200,10 @@ This repo contains the basics of automation testing and java which will covered 
 * Project Created
 >![Image](ss/Screenshot%202020-12-21%20at%2012.12.46%20PM.png)
 
+* Create Package and Class. Right click on the src/main/java pacakage and create your package and class
+> ![image](https://user-images.githubusercontent.com/10477349/111936063-c87f1f80-8aff-11eb-9256-ee68c30edb22.png)
+
+
 
 ## Create your First Program - Calculator
 
