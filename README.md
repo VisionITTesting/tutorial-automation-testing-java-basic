@@ -47,7 +47,6 @@ This repo contains the basics of automation testing and java which will covered 
 
 >![Image](ss/Slide1.png)
 
->![Image](ss/Slide2.png)
 
 >![Image](ss/Slide3.png)
 
